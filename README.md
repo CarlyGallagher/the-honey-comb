@@ -2,34 +2,26 @@
 
 ## Description
 
-this is a description
+* Honey Comb is a social media application with innovative simplicity and creativity. This is a place for people to share the on-goings and interest of their lives.
 
 ## Table of Contents 
 
-- [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [Contribute](#contribute)
 - [Test](#Tests)
 - [Questions](#questions)
 - [License](#license)
 
-## Installation
-
-this is a how you program
-
 ## Usage
-How to Use this application:
-undefined
+* TO DO: add screenshots here 
 
 ## Credits
 
-these are the creators
-
-## How to Contribute
-For future contributers these are the guidelines:
-
-here are rules for future contributer
+* Carly Gallagher
+* Ariana Coia
+* Myleen Santana
+* Samantha Orozco
+* Andra Mays
 
 ## Tests
 How to test this project:
