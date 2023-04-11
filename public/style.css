@@ -179,3 +179,79 @@ h1{
 	margin-left: 5px;
 	filter: blur(1);
   }
+
+  .sidebar {
+	height: 100%;
+	width: 180px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color:#ffd00079;
+	overflow-x: hidden;
+	padding-top: 16px;
+	padding-left: 15px;
+	justify-content: center;
+  }
+  
+  /* Style sidebar links */
+  .sidebar a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #110617;
+	display: block;
+	background-color: transparent;
+  }
+
+  h3{
+	background-color: transparent;
+  }
+
+  .topnav {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+  }
+
+  body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+  }
+  h3 {
+	color: rgb(0, 0, 0);
+  }
+  .grid-container {
+	columns: 1 200px;
+	column-gap: 1.5rem;
+	width: 25%;
+	margin: 0 auto;
+	margin-left: 470px;
+  }
+	.grid-container div {
+	  width: 150px;
+	  height: 150px;
+	  margin: 0 1.5rem 1.5rem 0;
+	  display: inline-block;
+	  width: 100%;
+	  border: solid 2px black;
+	  padding: 5px;
+	  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	  border-radius: 5px;
+	  transition: all .25s ease-in-out;
+	} 
+	  img {
+		width: 100%;
+		border-radius: 5px;
+		transition: all .25s ease-in-out;
+	  }
+	  p {
+		margin: 5px 0;
+		padding: 0;
+		text-align: center;
+		font-style: italic;
+	  }
+	
+  
