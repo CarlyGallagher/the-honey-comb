@@ -1,0 +1,181 @@
+* {
+	font-family: 'Vidaloka', serif;
+	background-color: white;
+}
+
+.honeycomb {
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	background-color: rgb(244, 220, 85);
+	width: 270px;
+	height: 300px;
+	margin-top: 150px;
+}
+
+.field {
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+text-align: center;
+padding-top: 70px;
+}
+
+label {
+	background-color: transparent;
+}
+
+h1{
+	background-color: transparent;
+	text-align: center;
+	justify-content: center;
+	line-height: 20px;
+	letter-spacing: 4px;
+	margin: 70px;
+	
+}
+
+.container {
+	max-width: 1000px;
+	margin: 50px auto 20px auto;
+  }
+ 
+  
+  .hex-layer-4 {
+	display: grid;
+	margin: -30px 0px;
+	justify-content: center;
+	align-content: center;
+	grid-template-columns: repeat(4, 0fr);
+  }
+  .hex-layer-3 {
+	display: grid;
+	margin: -35px 0px;
+	justify-content: center;
+	align-content: center;
+	grid-template-columns: repeat(3, 0fr);
+  }
+  .hex-layer-2 {
+	display: grid;
+	margin: -40px -10px;
+	justify-content: center;
+	align-content: center;
+	grid-template-columns: repeat(2, 0fr);
+  }
+  .hex {
+	height: 150px;
+	padding-top: 50px;
+	width: 170px;
+	align-self: center;
+	background: #ffd100;
+	-webkit-clip-path: polygon( 50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+	clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+  }
+
+  .login {
+	align-content: center;
+	text-align: center;
+	
+  }
+
+  .login button {
+	background-color: white;
+	border-radius: 20px;
+  }
+  
+  .honey {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  }
+
+  .wrap{
+	position: absolute;
+	animation: buzzing 1s ease-in-out infinite;
+  }
+
+  @keyframes buzzing {
+	0% {
+		bottom: 100px;
+	}
+	50% {
+		bottom: 130px;
+	}
+	100% {
+		bottom: 100px;
+	}
+	}
+
+
+
+  .beebody {
+	position: absolute;
+	height: 85px;
+	width: 75px;
+	border-radius: 100%;
+	background-color: #ffd100;
+	box-shadow: 20px 0 0 #000, 40px -3px 0 #ffd100, 60px -7px 0 #000, 80px -11px 0 #ffd100;
+	filter: blur(1px);
+  }
+
+  .wing1 {
+	position: absolute;
+	height: 55px;
+	width: 55px;
+	transform: rotate(20deg);
+	transform-origin: bottom right;
+	border-top-right-radius: 100%;
+	border-bottom-left-radius: 100%;
+	border-top-left-radius: 10px;
+	background-color: rgb(182, 215, 218);
+	border: black 2px;
+	margin-left: 30px;
+	bottom: 3px;
+	z-index: 0;
+	filter: blur(1px);
+	animation: flutter1 0.7s linear reverse infinite;
+  }
+
+  @keyframes flutter1 {
+	0% {
+		transform: rotate(20deg);
+	}
+	50% {
+		transform: rotate(40deg)
+	}
+  }
+
+  .wing2{
+	position: absolute;
+	height: 55px;
+	width: 55px;
+	transform: rotate(80deg);
+	transform-origin: bottom right;
+	border-top-right-radius: 100%;
+	border-bottom-left-radius: 100%;
+	border-top-left-radius: 10px;
+	background-color: rgb(182, 215, 218);
+	bottom: 2px;
+	margin-left: 30px;
+	filter: blur(1px);
+	animation: flutter2 0.9s linear reverse infinite;
+  }
+
+  @keyframes flutter2 {
+	0% {
+		transform: rotate(80deg);
+	}
+	50% {
+		transform: rotate(100deg)
+	}
+  }
+
+  .pupil {
+	position: absolute;
+	height: 7px;
+	width: 7px;
+	background-color: #000;
+	border-radius: 100%;
+	box-shadow: 20px 0 0 #000;
+	margin-top: 30px;
+	margin-left: 5px;
+	filter: blur(1);
+  }
