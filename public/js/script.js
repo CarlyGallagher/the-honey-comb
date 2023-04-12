@@ -23,5 +23,5 @@ fetch("https://jsonplaceholder.typicode.com/users")
         header.textContent = user.name 
         userCardContainer.append(card)
         return { name: user.name, element: card }
-    })
+})
 })
