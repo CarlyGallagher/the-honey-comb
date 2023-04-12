@@ -182,7 +182,7 @@ h1{
 
   .sidebar {
 	height: 100%;
-	width: 180px;
+	width: 200px;
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -364,4 +364,43 @@ h1{
   
   .navb:hover::after {
 	width: 50%;
+  }
+
+  form {
+	position:absolute;
+	top:10;
+	right:0;
+  }
+
+  form .example input[type=text] {
+	padding: 10px;
+	font-size: 17px;
+	border: 1px solid grey;
+	float: left;
+	width: 80%;
+	background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form .example button {
+	float: right;
+	width: 20%;
+	padding: 10px;
+	background: transparent;
+	color: white;
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none; /* Prevent double borders */
+	cursor: pointer;
+  }
+  
+  form .example button:hover {
+	background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form .example::after {
+	content: "";
+	clear: both;
+	display: table;
   }
