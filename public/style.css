@@ -5,7 +5,7 @@
 
 .honeycomb {
 	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-	background-color: rgb(244, 220, 85);
+	background-color: rgba(244, 220, 85, 0.747);
 	width: 270px;
 	height: 300px;
 	margin-top: 150px;
@@ -29,7 +29,7 @@ h1{
 	justify-content: center;
 	line-height: 20px;
 	letter-spacing: 4px;
-	margin: 70px;
+	margin: 50px;
 	
 }
 
@@ -41,31 +41,31 @@ h1{
   
   .hex-layer-4 {
 	display: grid;
-	margin: -30px 0px;
+	margin: -20px 0px;
 	justify-content: center;
 	align-content: center;
 	grid-template-columns: repeat(4, 0fr);
   }
   .hex-layer-3 {
 	display: grid;
-	margin: -35px 0px;
+	margin: -20px 0px;
 	justify-content: center;
 	align-content: center;
 	grid-template-columns: repeat(3, 0fr);
   }
   .hex-layer-2 {
 	display: grid;
-	margin: -40px -10px;
+	margin: -20px -10px;
 	justify-content: center;
 	align-content: center;
 	grid-template-columns: repeat(2, 0fr);
   }
   .hex {
 	height: 150px;
-	padding-top: 50px;
+	padding-top: 70px;
 	width: 170px;
 	align-self: center;
-	background: #ffd100;
+	background: #ffd000a9;
 	-webkit-clip-path: polygon( 50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
 	clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
   }
@@ -192,6 +192,7 @@ h1{
 	padding-top: 16px;
 	padding-left: 15px;
 	justify-content: center;
+	align-items: center;
   }
   
   /* Style sidebar links */
@@ -403,4 +404,36 @@ h1{
 	content: "";
 	clear: both;
 	display: table;
+  }
+
+  .login-link  {
+	background-color: transparent;
+	border-radius: 10px;
+	border-color: #e8be03;
+  }
+
+  .signup-link {
+	background-color: transparent;
+	border-radius: 10px;
+	border-color: #e8be03;
+  }
+
+  #submit {
+	background-color: transparent;
+	border-radius: 10px;
+	border-color: #e8be03;
+  }
+
+  i {
+	color: #000;
+	background-color: transparent;
+  }
+
+  .hc-logo {
+	background-color: transparent;
+	text-align: center;
+	justify-content: center;
+	line-height: 20px;
+	letter-spacing: 4px;
+	margin: 20px;
   }

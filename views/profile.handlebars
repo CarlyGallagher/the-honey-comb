@@ -1,0 +1,14 @@
+{{#if posts.length}}
+<section>
+  <h2>Your Posts</h2>
+    {{#each posts as |post|}}
+      {{> profile-postinfo post}}
+      {{!-- <a href="/profile/edit/{{post.id}}">Edit post</a> --}}
+    {{/each}}
+
+</section>
+{{/if}}
+
+<button type="submit" class="btn"><a class="link" href="/profile/new">+ New Post</a></button>
+
+<script src="/javascript/add-post.js"></script>
