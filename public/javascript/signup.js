@@ -19,7 +19,7 @@ async function signupFormHandler(event) {
         console.log('success');
 
         // loginHandler();
-        document.location.replace('/dashboard');
+        document.location.replace('/login');
 
       } else {
         alert(response.statusText);

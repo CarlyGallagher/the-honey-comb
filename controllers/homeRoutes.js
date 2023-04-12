@@ -2,11 +2,19 @@ const router = require("express").Router();
 
 router.get("/", async (req, res) => {
   // Send the rendered Handlebars.js template back as the response
+  res.render("login");
+});
+router.get("/homepage", async (req, res) => {
+  // Send the rendered Handlebars.js template back as the response
   res.render("homepage");
 });
-router.get("/login", async (req, res) => {
+router.get("/signup", async (req, res) => {
   // Send the rendered Handlebars.js template back as the response
-  res.render("login");
+  res.render("signup");
+});
+router.get("/profile", async (req, res) => {
+  // Send the rendered Handlebars.js template back as the response
+  res.render("profile");
 });
 
 module.exports = router;
