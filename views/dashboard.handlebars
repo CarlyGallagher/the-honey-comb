@@ -1,0 +1,65 @@
+<body>
+    <nav class="slider1">
+        <!-- In this section, individual classes were deleted and condensed into benefits h3 in the CSS -->
+        <section class="sidebar">
+            <p>create new post <button class="create"><i class="fa-solid fa-pen-to-square"></i></button></p>
+            <a class="navb" class="" href="/"><i></i>Homepage</a>
+            <h2 id="username-pro">@username</h2>
+         <img class="pro-pic" src="https://proxy.duckduckgo.com/iu/?u=http://bpucette.b.p.pic.centerblog.net/fv86ll9r.jpg&f=1">
+         <button class="edit" href="/"> <i class="fa-solid fa-user-pen"></i> edit profile picture</button>
+         <p>About Me</p>
+         <p class="bio">My bio</p>
+         <p>Pronouns:</p>
+        </section>
+    </nav>
+<div class="top-post">
+    <h1 >My Posts</h1>
+   
+</div>
+    <div class = "gallery">
+        <div class="clipped-border">
+            <p>1 day ago</p>
+          <img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.gettyimages.com.au%2Fgi-resources%2Fimages%2Ffrontdoor%2Fcreative%2FPanoramicImagesRM%2FFD_image.jpg&f=1" id="clipped">
+        </div>
+        <div class="clipped-border">
+            <p></p>
+          <img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fbpucette.b.p.pic.centerblog.net%2Ffv86ll9r.jpg&f=1" id="clipped">
+        </div>
+        <div class="clipped-border">
+            <p></p>
+          <img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fimagejournal.org%2Fwp-content%2Fuploads%2Fbb-plugin%2Fcache%2F23466317216_b99485ba14_o-panorama.jpg&f=1" id="clipped">
+        </div>
+          <div class="clipped-border">
+            <p></p>
+          <img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.lokeshdhakar.com%2Fprojects%2Flightbox2%2Fimages%2Fimage-4.jpg&f=1" id="clipped">
+        </div>
+          <div class="clipped-border">
+            <p></p>
+          <img src="https://images.pexels.com/photos/932638/pexels-photo-932638.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" id="clipped">
+        </div>
+        <div class = "shadow"></div>
+      </div>
+
+      <div class="wrap">
+        <div class="beebody"></div>
+        <div class="wing1"></div>
+        <div class="wing2"></div>
+        <div class="pupil"></div>
+        </div>
+    
+
+{{#if posts.length}}
+<section>
+  <h2>Your Posts</h2>
+    {{#each posts as |post|}}
+      {{> dashboard-postinfo post}}
+      {{!-- <a href="/dashboard/edit/{{post.id}}">Edit post</a> --}}
+    {{/each}}
+
+</section>
+{{/if}}
+
+<button type="submit" class="btn"><a class="link" href="/dashboard/new">+ New Post</a></button>
+
+<script src="/javascript/add-post.js"></script>
+</body>

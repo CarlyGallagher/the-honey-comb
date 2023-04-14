@@ -2,18 +2,21 @@
 
 ## Description
 
-* Honey Comb is a social media application with innovative simplicity and creativity. This is a place for people to share the on-goings and interest of their lives.
+* Honey Comb is a social media application with innovative simplicity and creativity. This is a place for people to share the on-goings and 
+* interest of their lives along with creative freedom to cusomize their profile page
 
 ## Table of Contents 
 
 - [Usage](#usage)
 - [Credits](#credits)
-- [Test](#Tests)
+- [links](#links)
 - [Questions](#questions)
 - [License](#license)
 
 ## Usage
-* TO DO: add screenshots here 
+​![Alt text](./assets/login%3Asignup.png)
+​![Alt text](./assets/homepage.png)
+​![Alt text](./assets/profile1.png)
 
 ## Credits
 
@@ -23,20 +26,16 @@
 * Samantha Orozco
 * Andra Mays
 
-## Tests
-How to test this project:
+## Links
 
-test instructions here
+https://github.com/CarlyGallagher/the-honey-comb.git
+
 
 ## Questions
 If you have any questions feel free to reach me at
 Github Username: 
 - https://github.com/CarlyGallagher
 
-or
-
-Email me at: 
-- thisisanemail@email.com
 
 ## License
 

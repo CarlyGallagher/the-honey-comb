@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS honey_media;
+
+CREATE DATABASE honey_media;
