@@ -2,8 +2,7 @@
 
 ## Description
 
-* Honey Comb is a social media application with innovative simplicity and creativity. This is a place for people to share the on-goings and 
-* interest of their lives along with creative freedom to cusomize their profile page
+* Honey Comb is a social media application with innovative simplicity and creativity. This is a place for people to share the on-goings and interest of their lives along with creative freedom to cusomize their profile page.
 
 ## Table of Contents 
 
