@@ -27,8 +27,9 @@
 
 ## Links
 
-https://github.com/CarlyGallagher/the-honey-comb.git
+github link: https://github.com/CarlyGallagher/the-honey-comb.git
 
+heroku link: https://the-honey-comb.herokuapp.com/
 
 ## Questions
 If you have any questions feel free to reach me at
